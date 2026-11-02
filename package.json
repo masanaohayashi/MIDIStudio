@@ -1,7 +1,7 @@
 {
   "name": "midi-studio",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "predev": "node scripts/copy-worklet.mjs",
     "dev": "vite",
     "prebuild": "node scripts/copy-worklet.mjs",
-    "build": "tsc -b && vite build && node scripts/build-pages.mjs",
+    "build": "tsc -b && vite build && node scripts/build-pages.mjs && node scripts/build-pwa.mjs",
     "preview": "vite preview",
     "fetch-soundfont": "node scripts/fetch-soundfont.mjs",
     "test": "vitest run",

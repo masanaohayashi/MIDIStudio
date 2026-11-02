@@ -149,3 +149,8 @@ Compatibility notes (GM/GS, SF2):
 Files modified:
 Next phase / blockers:
 ```
+
+## PWA
+
+- `tests/e2e/pwa.spec.ts`（Chromium）: manifest の開始 URL / scope / PNG アイコン、Service Worker 制御、オフライン再起動、実音源の再生位置進行、ヘルプ・入門ページのオフライン表示。
+- 通常のルート配信と `BASE_PATH=/MIDIStudio/` のサブパス配信で実行する。OS のインストール UI と実際の聴感は手動確認。
